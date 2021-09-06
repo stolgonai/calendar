@@ -10,4 +10,74 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+
+}
+
+/* :root {
+  --body-Main-bg-color:#E5E5E5;
+  --secondary-color:rgba(14, 165, 233, 0.1);
+  --primary-color-violet: #6D28D9; ;
+  --bg-color: #E5E5E5;;
+  --bg-color-grey: #18181B;
+  --secucess-color: #2AA952;
+  --error-color: #F01F0E;
+  --font-body: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  --display-font-size: 34px;
+  --headline-font-size: 24px;
+  --title-font-size: 18px;
+  --caption-font-size: 14px;
+  --small-font-size: 11px;
+} */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;600&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  /* padding: 0px; */
+  background-color: #F9F9F9;
+  font-family: 'Inter', sans-serif;;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3 , p {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+.btn {
+  cursor: pointer;
+  font-family: inherit;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  background: none;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input {
+  background-color: none;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  font-family: inherit;
+}
+
+.App{
+  display: grid;
+  grid-template-columns: 300px auto;
+  border: 1px solid grey;
+  padding: 16px 16px;
+  display: repeat(5, 2500px)
 }
